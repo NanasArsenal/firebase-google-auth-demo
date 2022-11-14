@@ -15,8 +15,8 @@ const Account = () => {
   return (
     <div>
  
-    
-      <button onClick={handleLogout}>Logout</button>
+      <p>{user.displayName} </p>
+      <button className='border border-slate-900 px-2' onClick={handleLogout}>Logout</button>
     </div>
     
   )
